@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+	
+	function pulaLinha() {
+
+		document.write("<br>");
+
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	
+	}
+
+	var idadeMedia = 28;
+	var anoChegada = 1500;
+	var anoAtual = 2016;
+	var numeroGeracoes = (anoAtual - anoChegada)/28;
+
+	mostra("Se passaram " + Math.round(numeroGeracoes) + " gerações");
+
+
+
+</script>
